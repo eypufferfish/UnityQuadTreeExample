@@ -84,7 +84,6 @@ public class DefaultUserObjectSpawner : IUserObjectSpawner
         aRectangle.SetY(Random.Range(0.0001f, this.worldBounds.GetHeight()) + this.worldBounds.GetY());
         aRectangle.SetWidth(Random.Range(0.001f, this.widthUpperLimit));
         aRectangle.SetHeight(Random.Range(0.001f, this.heightUpperLimit));
-        Debug.Log(aRectangle.GetHeight());
     }
 
     private ICircle spawnCircle()
